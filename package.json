@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "My private sample project",
+  "main": "query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michikazu Sugahara",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.465.0",
+    "@huggingface/inference": "^2.6.4",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "pg": "^8.11.3",
+    "pgvector": "^0.1.5"
+  },
+  "type": "module"
+}
